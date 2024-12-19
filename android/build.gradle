@@ -25,6 +25,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace 'com.example.call_atomated.linphone'
     compileSdkVersion 31
 
     compileOptions {
